@@ -1,0 +1,30 @@
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    /* animation: mover 2s ease-in-out infinite; */
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(194, 233, 21);
+}
+
+/* @keyframes mover{
+    0% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(100px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+} */
